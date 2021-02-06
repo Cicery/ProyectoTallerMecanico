@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelo", "Modelo", "{AF573F21-FF0B-41DF-AC30-B967D95E8BF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vista", "Vista", "{713B48CF-CAE5-4AF6-8F38-D185FC5D31C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controlador", "Controlador", "{4FAAAF4D-84CF-4CA2-979E-AB6660CBD466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico", "TallerMecanico\TallerMecanico.csproj", "{5FD89E38-CC27-4717-B74C-E4E38BEE677C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD89E38-CC27-4717-B74C-E4E38BEE677C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD89E38-CC27-4717-B74C-E4E38BEE677C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD89E38-CC27-4717-B74C-E4E38BEE677C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD89E38-CC27-4717-B74C-E4E38BEE677C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FD89E38-CC27-4717-B74C-E4E38BEE677C} = {713B48CF-CAE5-4AF6-8F38-D185FC5D31C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CBB0D3E-C0C8-4A82-97F5-D339833063B7}
+	EndGlobalSection
+EndGlobal
