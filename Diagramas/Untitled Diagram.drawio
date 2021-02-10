@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T01:41:20.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="1Gge_ey5-J5GSEFADjt3" version="14.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-10T01:42:15.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="tC20W0AgtnWiyMSJtwD0" version="14.3.0" type="github" pages="2">
   <diagram name="Page-1" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -40,9 +40,9 @@
             <mxPoint x="10" y="120" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="StAKbVLHcv3YjBZbmj_X-8" value="SIGN IN" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=none;fontColor=#ffffff;fillColor=#66bbff;fontSize=16;fontStyle=1;" vertex="1" parent="StAKbVLHcv3YjBZbmj_X-1">
-          <mxGeometry y="1" width="80" height="30" relative="1" as="geometry">
-            <mxPoint x="50" y="-50" as="offset" />
+        <mxCell id="StAKbVLHcv3YjBZbmj_X-8" value="Iniciar sesiòn" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=none;fontColor=#ffffff;fillColor=#66bbff;fontSize=16;fontStyle=1;" vertex="1" parent="StAKbVLHcv3YjBZbmj_X-1">
+          <mxGeometry y="1" width="120" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="-60" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
