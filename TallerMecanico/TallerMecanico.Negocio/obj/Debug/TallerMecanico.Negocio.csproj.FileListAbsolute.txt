@@ -6,8 +6,13 @@ E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-m
 E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-master\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.pdb
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Negocio.dll
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Negocio.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Datos.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Entidades.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Datos.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Entidades.pdb
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.csprojAssemblyReference.cache
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.csproj.CoreCompileInputs.cache
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.csproj.CopyComplete
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.dll
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.pdb
 C:\Proyectos\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Negocio.dll

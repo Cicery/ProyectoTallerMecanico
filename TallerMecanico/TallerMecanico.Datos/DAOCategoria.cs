@@ -15,28 +15,14 @@ namespace TallerMecanico.Datos
 {
     public class DAOCategoria
     {
-        string _cadenaConexion;
-
-        public string CadenaConexion
-        {
-            get
-            {
-                if (_cadenaConexion == null)
-                {
-                    _cadenaConexion = ConfigurationManager.
-                        ConnectionStrings["Conex"].ConnectionString;
-                }
-                return _cadenaConexion;
-            }
-            set { _cadenaConexion = value; }
-        }
+        
 
         //metodo para traer la lista de todas las categorías de la tabla
         public List<Categoria> Listar()
         {
             List<Categoria> lista = new List<Categoria>();
 
-            using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand("ListarCategorias", con);
@@ -60,7 +46,7 @@ namespace TallerMecanico.Datos
         public Categoria TraerPorId(int Id)
         {
             Categoria Categoria = new Categoria();
-            using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand("TraerCategoriaPorId", con);
@@ -82,7 +68,7 @@ namespace TallerMecanico.Datos
         public int Insertar(Categoria Categoria)
         {
             int n = -1;
-            using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand("InsertarCategoria", con);
@@ -99,7 +85,7 @@ namespace TallerMecanico.Datos
         public int Actualizar(Categoria Categoria)
         {
             int n = -1;
-            using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand("ActualizarCategoria", con);
@@ -117,7 +103,7 @@ namespace TallerMecanico.Datos
         public int Eliminar(int Id)
         {
             int n = -1;
-            using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand("EliminarCategoria", con);

@@ -18,7 +18,7 @@ namespace TallerMecanico
     {
         List<Categoria> lista = null;
         BLCategoria blCategoria = new BLCategoria();
-        Categoria c;
+        Categoria categoria;
         bool _nuevo = false;
 
         public FrmCategoriacs()
@@ -105,21 +105,21 @@ namespace TallerMecanico
 
         private void btnGrabar_Click(object sender, EventArgs e)
         {
-            int n = -1;
+            int resultado = -1;
             if (_nuevo)
             {
-                c = new Categoria(0, txtCodigo.Text,
+                categoria = new Categoria(0, txtCodigo.Text,
                     txtNombre.Text, txtObservacion.Text);
-                n = blCategoria.Insertar(c);
+                resultado = blCategoria.Insertar(categoria);
             }
             else
             {
-                c.Codigo = txtCodigo.Text;
-                c.Nombre = txtNombre.Text;
-                c.Observacion = txtObservacion.Text;
-                n = blCategoria.Actualizar(c);
+                categoria.Codigo = txtCodigo.Text;
+                categoria.Nombre = txtNombre.Text;
+                categoria.Observacion = txtObservacion.Text;
+                resultado = blCategoria.Actualizar(categoria);
             }
-            if (n > 0)
+            if (resultado > 0)
             {
                 MessageBox.Show("Datos grabados correctamente", "Aviso",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -154,11 +154,11 @@ namespace TallerMecanico
             {
                 if (dgvDatos.RowCount > 0)
                 {
-                    c = blCategoria.TraerPorId((int)dgvDatos[0, dgvDatos.
+                   categoria = blCategoria.TraerPorId((int)dgvDatos[0, dgvDatos.
                         CurrentRow.Index].Value);
-                    txtCodigo.Text = c.Codigo;
-                    txtNombre.Text = c.Nombre;
-                    txtObservacion.Text = c.Observacion;
+                    txtCodigo.Text = categoria.Codigo;
+                    txtNombre.Text = categoria.Nombre;
+                    txtObservacion.Text = categoria.Observacion;
                     ActivarControlDatos(gbDatos, true);
                     ActivarButton(false);
                     dgvDatos.Enabled = false;
@@ -172,14 +172,14 @@ namespace TallerMecanico
         {
             if (dgvDatos.RowCount > 0)
             {
-                c = blCategoria.TraerPorId((int)dgvDatos[0, dgvDatos.
+                categoria = blCategoria.TraerPorId((int)dgvDatos[0, dgvDatos.
                     CurrentRow.Index].Value);
                 DialogResult rpta =
                     MessageBox.Show("Desea eliminar el registro", "Eliminar",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (rpta == System.Windows.Forms.DialogResult.Yes)
                 {
-                    int n = blCategoria.Eliminar(c.Id);
+                    int n = blCategoria.Eliminar(categoria.Id);
                     if (n > 0)
                     {
                         MessageBox.Show("Registro eliminado", "Aviso",
