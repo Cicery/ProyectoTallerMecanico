@@ -8,8 +8,17 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vista", "Vista", "{713B48CF-CAE5-4AF6-8F38-D185FC5D31C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controlador", "Controlador", "{4FAAAF4D-84CF-4CA2-979E-AB6660CBD466}"
+	ProjectSection(SolutionItems) = preProject
+		TallerMecanico.Negocio\BLCategoria.cs = TallerMecanico.Negocio\BLCategoria.cs
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico", "TallerMecanico\TallerMecanico.csproj", "{5FD89E38-CC27-4717-B74C-E4E38BEE677C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Entidades", "TallerMecanico.Entidades\TallerMecanico.Entidades.csproj", "{C09F90A7-F34E-44C8-BF16-0C60E83E7240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Datos", "TallerMecanico.Datos\TallerMecanico.Datos.csproj", "{AF958D52-0776-4695-AADD-2E2E056573C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Negocio", "TallerMecanico.Negocio\TallerMecanico.Negocio.csproj", "{73BCF3F7-31FE-407F-85CB-A9EAC147EBA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +30,27 @@ Global
 		{5FD89E38-CC27-4717-B74C-E4E38BEE677C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FD89E38-CC27-4717-B74C-E4E38BEE677C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FD89E38-CC27-4717-B74C-E4E38BEE677C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09F90A7-F34E-44C8-BF16-0C60E83E7240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09F90A7-F34E-44C8-BF16-0C60E83E7240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09F90A7-F34E-44C8-BF16-0C60E83E7240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09F90A7-F34E-44C8-BF16-0C60E83E7240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF958D52-0776-4695-AADD-2E2E056573C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF958D52-0776-4695-AADD-2E2E056573C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF958D52-0776-4695-AADD-2E2E056573C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF958D52-0776-4695-AADD-2E2E056573C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BCF3F7-31FE-407F-85CB-A9EAC147EBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BCF3F7-31FE-407F-85CB-A9EAC147EBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BCF3F7-31FE-407F-85CB-A9EAC147EBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BCF3F7-31FE-407F-85CB-A9EAC147EBA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5FD89E38-CC27-4717-B74C-E4E38BEE677C} = {713B48CF-CAE5-4AF6-8F38-D185FC5D31C6}
+		{C09F90A7-F34E-44C8-BF16-0C60E83E7240} = {AF573F21-FF0B-41DF-AC30-B967D95E8BF6}
+		{AF958D52-0776-4695-AADD-2E2E056573C3} = {AF573F21-FF0B-41DF-AC30-B967D95E8BF6}
+		{73BCF3F7-31FE-407F-85CB-A9EAC147EBA7} = {4FAAAF4D-84CF-4CA2-979E-AB6660CBD466}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CBB0D3E-C0C8-4A82-97F5-D339833063B7}

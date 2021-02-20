@@ -1,0 +1,6 @@
+E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-master\TallerMecanico\TallerMecanico.Entidades\bin\Debug\TallerMecanico.Entidades.dll
+E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-master\TallerMecanico\TallerMecanico.Entidades\bin\Debug\TallerMecanico.Entidades.pdb
+E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-master\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.csprojAssemblyReference.cache
+E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-master\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.csproj.CoreCompileInputs.cache
+E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-master\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.dll
+E:\Documents\Uninpahu-Materias\Lenguaje de Programacion\ProyectoTallerMecanico-master\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.pdb
