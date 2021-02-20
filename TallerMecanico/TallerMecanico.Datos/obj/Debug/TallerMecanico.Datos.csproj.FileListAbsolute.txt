@@ -9,3 +9,14 @@ D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.csproj.CopyComplete
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.dll
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.pdb
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Datos.dll
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Datos.pdb
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Entidades.dll
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Entidades.pdb
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.csprojAssemblyReference.cache
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.csproj.CoreCompileInputs.cache
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.csproj.CopyComplete
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.dll
+C:\Proyectos\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.pdb
