@@ -3,3 +3,15 @@ D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\Taller
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.Properties.Resources.resources
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csproj.GenerateResource.cache
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csproj.CoreCompileInputs.cache
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.exe.config
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.exe
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.Entidades.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.Negocio.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.Datos.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.Entidades.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.Negocio.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\TallerMecanico.Datos.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csproj.CopyComplete
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.exe
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.pdb
