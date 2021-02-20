@@ -14,7 +14,7 @@ namespace TallerMecanico.Entidades
         string _codigo;
         string _nombre;
         string _observacion;
-
+         
         // Se definen los metodos get y set
         public int Id
         {
