@@ -41,7 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLCategoria.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TallerMecanico.Datos\TallerMecanico.Datos.csproj">
+      <Project>{AF958D52-0776-4695-AADD-2E2E056573C3}</Project>
+      <Name>TallerMecanico.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TallerMecanico.Entidades\TallerMecanico.Entidades.csproj">
+      <Project>{C09F90A7-F34E-44C8-BF16-0C60E83E7240}</Project>
+      <Name>TallerMecanico.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

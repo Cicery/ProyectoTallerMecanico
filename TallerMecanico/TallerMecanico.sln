@@ -8,9 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vista", "Vista", "{713B48CF-CAE5-4AF6-8F38-D185FC5D31C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controlador", "Controlador", "{4FAAAF4D-84CF-4CA2-979E-AB6660CBD466}"
-	ProjectSection(SolutionItems) = preProject
-		TallerMecanico.Negocio\BLCategoria.cs = TallerMecanico.Negocio\BLCategoria.cs
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico", "TallerMecanico\TallerMecanico.csproj", "{5FD89E38-CC27-4717-B74C-E4E38BEE677C}"
 EndProject
