@@ -15,3 +15,12 @@ D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Taller
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csproj.CopyComplete
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.exe
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.xml
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Sinks.File.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Sinks.File.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Sinks.File.xml
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Formatting.Compact.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Sinks.Console.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Formatting.Compact.xml
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Sinks.Console.xml

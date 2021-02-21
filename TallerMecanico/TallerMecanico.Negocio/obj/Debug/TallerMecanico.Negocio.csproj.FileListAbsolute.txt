@@ -26,3 +26,5 @@ C:\Proyectos\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Nego
 C:\Proyectos\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.csproj.CopyComplete
 C:\Proyectos\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.dll
 C:\Proyectos\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\Serilog.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\Serilog.xml

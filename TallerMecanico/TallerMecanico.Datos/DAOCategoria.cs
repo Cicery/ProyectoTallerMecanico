@@ -10,6 +10,7 @@ using System.Data;
 
 
 using TallerMecanico.Entidades;
+using Serilog;
 
 namespace TallerMecanico.Datos
 {
@@ -21,24 +22,35 @@ namespace TallerMecanico.Datos
         public List<Categoria> Listar()
         {
             List<Categoria> lista = new List<Categoria>();
-
-            using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
+        
+            try
             {
-                con.Open();
-                SqlCommand cmd = new SqlCommand("ListarCategorias", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlDataReader dr = cmd.ExecuteReader();
-                if (dr != null && dr.HasRows)
+                using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
                 {
-                    while (dr.Read())
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("ListarCategorias", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    if (dr != null && dr.HasRows)
                     {
-                        Categoria c = new Categoria((int)dr["Id"],
-                            (string)dr["Codigo"], (string)dr["Nombre"],
-                            (string)dr["Observacion"]);
-                        lista.Add(c);
+                        while (dr.Read())
+                        {
+                            Categoria c = new Categoria((int)dr["Id"],
+                                (string)dr["Codigo"], (string)dr["Nombre"],
+                                (string)dr["Observacion"]);
+                            lista.Add(c);
+                        }
                     }
                 }
             }
+            catch(Exception ex)
+            {
+                Log.Information(ex, "Error por ty catch DAOCategoria - Listar");
+                Log.CloseAndFlush();
+            }
+              
+
+          
             return lista;
         }
 
