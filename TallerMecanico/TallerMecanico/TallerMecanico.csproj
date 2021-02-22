@@ -66,6 +66,24 @@
     <Compile Include="FrmCategorias.Designer.cs">
       <DependentUpon>FrmCategorias.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmInicioAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioAdministrador.Designer.cs">
+      <DependentUpon>FrmInicioAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioAsistente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioAsistente.Designer.cs">
+      <DependentUpon>FrmInicioAsistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioMecanico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioMecanico.Designer.cs">
+      <DependentUpon>FrmInicioMecanico.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>

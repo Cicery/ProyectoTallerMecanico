@@ -10,12 +10,19 @@ namespace TallerMecanico.Entidades
     {
         public string Usuario { get; set; }
         public string Contrasena { get; set; }
-        public int Id_Rol { get; set; }
+        public EId_Rol Id_Rol { get; set; }
         public int Id_Persona { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaModificacion { get; set; }
         public bool Activo { get; set; }
 
+    }
+
+    public enum EId_Rol
+    {
+        Administrador = 1,
+        Asistente = 2,
+        Mecanico = 3
     }
 }
 

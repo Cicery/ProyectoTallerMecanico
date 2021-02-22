@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="DAOCategoria.cs" />
     <Compile Include="DAOConexion.cs" />
+    <Compile Include="DAOTUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

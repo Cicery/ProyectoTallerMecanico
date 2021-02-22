@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TallerMecanico.Negocio;
 
 namespace TallerMecanico
 {
     public partial class FrmLogin : Form
     {
+
+        BLTUsuario BLTUsuario = new BLTUsuario();
+
+
         public FrmLogin()
         {
             InitializeComponent();
@@ -24,13 +29,21 @@ namespace TallerMecanico
             string usuario = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
 
-            //Aqui agregar validación de usuario y redireccionar a formularios segun rol
-            if (true)
+            if (!string.IsNullOrEmpty(usuario) && !string.IsNullOrEmpty(contraseña))
             {
-                FrmCategorias frmCategorias = new FrmCategorias();
-                this.Close();
-                frmCategorias.Show();
+
+                if (BLTUsuario.SeleccionarUsuario(usuario,contraseña) != null)
+                {
+                    FrmCategorias frmCategorias = new FrmCategorias();
+                    this.Close();
+                    frmCategorias.Show();
+                }
             }
+            else
+            {
+                // le decimos que es ingrese el usuario y contraseña para ingresar
+            }
+         
 
             
         }
