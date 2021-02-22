@@ -14,14 +14,14 @@ using TallerMecanico.Negocio;
 
 namespace TallerMecanico
 {
-    public partial class FrmCategoriacs : Form
+    public partial class FrmCategorias : Form
     {
         List<Categoria> lista = null;
         BLCategoria blCategoria = new BLCategoria();
         Categoria categoria;
         bool _nuevo = false;
 
-        public FrmCategoriacs()
+        public FrmCategorias()
         {
             InitializeComponent();
             ActivarControlDatos(gbDatos, false);

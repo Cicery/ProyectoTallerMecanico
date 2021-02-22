@@ -29,7 +29,7 @@ namespace TallerMecanico
                  .WriteTo.File(new JsonFormatter(),path:"C:\\Logs\\TallerMecanico\\Log.json", rollingInterval: RollingInterval.Day,shared:true) //Con esta línea configuramos la salida a fichero
                  .CreateLogger();
 
-            Application.Run(new FrmCategoriacs());
+            Application.Run(new FrmLogin());
         }
     }
 }

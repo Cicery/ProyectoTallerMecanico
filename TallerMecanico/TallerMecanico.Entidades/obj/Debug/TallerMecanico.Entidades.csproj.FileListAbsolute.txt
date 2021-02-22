@@ -15,3 +15,4 @@ C:\Proyectos\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.En
 C:\Proyectos\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.csproj.CoreCompileInputs.cache
 C:\Proyectos\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.dll
 C:\Proyectos\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Entidades\obj\Debug\TallerMecanico.Entidades.csprojAssemblyReference.cache

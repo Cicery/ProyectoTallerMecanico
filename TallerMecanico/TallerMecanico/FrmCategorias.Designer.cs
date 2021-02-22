@@ -1,7 +1,7 @@
 ﻿
 namespace TallerMecanico
 {
-    partial class FrmCategoriacs
+    partial class FrmCategorias
     {
         /// <summary>
         /// Required designer variable.

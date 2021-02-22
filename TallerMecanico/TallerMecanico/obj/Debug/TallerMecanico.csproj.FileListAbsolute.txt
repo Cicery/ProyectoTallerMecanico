@@ -1,5 +1,4 @@
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csprojAssemblyReference.cache
-D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmCategoriacs.resources
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.Properties.Resources.resources
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csproj.GenerateResource.cache
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csproj.CoreCompileInputs.cache
@@ -24,3 +23,8 @@ D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilo
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Sinks.Console.dll
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Formatting.Compact.xml
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\Serilog.Sinks.Console.xml
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmCategorias.resources
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmLogin.resources
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\es-CO\TallerMecanico.resources.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmLogin.es-CO.resources
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\es-CO\TallerMecanico.resources.dll
