@@ -55,5 +55,10 @@ namespace TallerMecanico.Datos
         }
 
 
+        public List<TUsuario> listarUasuatios()
+        {
+            return null;
+        }
+
     }
 }

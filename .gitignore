@@ -2,3 +2,5 @@
 /TallerMecanico/TallerMecanico.Datos/obj/
 /TallerMecanico/TallerMecanico/bin/
 /TallerMecanico/.vs/
+
+*.dll
