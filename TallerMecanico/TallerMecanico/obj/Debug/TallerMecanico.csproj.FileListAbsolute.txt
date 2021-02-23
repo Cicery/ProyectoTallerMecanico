@@ -59,3 +59,6 @@ C:\Proyectos\TallerMecanico\TallerMecanico\obj\Debug\es-CO\TallerMecanico.resour
 C:\Proyectos\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.csproj.CopyComplete
 C:\Proyectos\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.exe
 C:\Proyectos\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.pdb
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmInicioAdministrador.resources
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmInicioAsistente.resources
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmInicioMecanico.resources
