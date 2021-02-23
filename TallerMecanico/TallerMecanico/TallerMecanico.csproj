@@ -96,6 +96,15 @@
     <EmbeddedResource Include="FrmCategorias.resx">
       <DependentUpon>FrmCategorias.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioAdministrador.resx">
+      <DependentUpon>FrmInicioAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioAsistente.resx">
+      <DependentUpon>FrmInicioAsistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioMecanico.resx">
+      <DependentUpon>FrmInicioMecanico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.es-CO.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
