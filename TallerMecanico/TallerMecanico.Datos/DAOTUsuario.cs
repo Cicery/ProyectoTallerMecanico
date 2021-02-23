@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Serilog;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -16,29 +17,40 @@ namespace TallerMecanico.Datos
         {
 
             TUsuario usuario = null;
-            using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
+            try
             {
-                con.Open();
-                SqlCommand cmd = new SqlCommand("TraerCategoriaPorId", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Usuario", Usuario);
-                cmd.Parameters.AddWithValue("@Contraseña", Contraseña);
-                SqlDataReader dr = cmd.ExecuteReader();
-                if (dr != null && dr.HasRows)
+                using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
                 {
-                    dr.Read();
-                    usuario = new TUsuario()
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("TraerCategoriaPorId", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Usuario", Usuario);
+                    cmd.Parameters.AddWithValue("@Contraseña", Contraseña);
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    if (dr != null && dr.HasRows)
                     {
-                        Usuario = (string)dr["Usuario"],
-                        Contrasena = (string)dr["Contrasena"],
-                        Id_Rol = (EId_Rol)dr["Id_Rol"],
-                        Id_Persona = (int)dr["Id_Persona"],
-                        FechaCreacion = (DateTime)dr["FechaCreacion"],
-                        FechaModificacion = (DateTime)dr["FechaModificacion"],
-                        Activo = (bool)dr["Activo"],
-                    };
+                        dr.Read();
+                        usuario = new TUsuario()
+                        {
+                            Usuario = (string)dr["Usuario"],
+                            Contrasena = (string)dr["Contrasena"],
+                            Id_Rol = (EId_Rol)dr["Id_Rol"],
+                            Id_Persona = (int)dr["Id_Persona"],
+                            FechaCreacion = (DateTime)dr["FechaCreacion"],
+                            FechaModificacion = (DateTime)dr["FechaModificacion"],
+                            Activo = (bool)dr["Activo"],
+                        };
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                Log.Information(ex, "Error por ty catch DAOTUsuario - SeleccionarUsuario");
+                Log.CloseAndFlush();
+                throw;
+            }
+
+        
             return usuario;
         }
 
