@@ -16,5 +16,10 @@ namespace TallerMecanico
         {
             InitializeComponent();
         }
+
+        private void btnIRMecanico_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

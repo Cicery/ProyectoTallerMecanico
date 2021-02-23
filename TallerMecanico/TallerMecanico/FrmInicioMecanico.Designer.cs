@@ -44,6 +44,7 @@ namespace TallerMecanico
             this.btnIRMecanico.TabIndex = 16;
             this.btnIRMecanico.Text = "IR";
             this.btnIRMecanico.UseVisualStyleBackColor = true;
+            this.btnIRMecanico.Click += new System.EventHandler(this.btnIRMecanico_Click);
             // 
             // cbMecanico
             // 
