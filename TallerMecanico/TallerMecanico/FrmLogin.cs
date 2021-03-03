@@ -32,18 +32,18 @@ namespace TallerMecanico
             try
             {
                 string usuario = txtUsuario.Text;
-                string contraseña = txtContraseña.Text;
+                string Contrasena = txtContraseña.Text;
 
-                if (!string.IsNullOrEmpty(usuario) && !string.IsNullOrEmpty(contraseña))
+                if (!string.IsNullOrEmpty(usuario) && !string.IsNullOrEmpty(Contrasena))
                 {
-                    var modelUser = BLTUsuario.SeleccionarUsuario(usuario, Encrypt.GetSHA256(contraseña));
+                    var modelUser = BLTUsuario.SeleccionarUsuarioLogin(usuario, Encrypt.GetSHA256(Contrasena));
                     if (modelUser != null)
                     {
                         switch (modelUser.Id_Rol)
                         {
                             case EId_Rol.Administrador:
                                 FrmInicioAdministrador frmInicioAdministrador = new FrmInicioAdministrador();
-                                this.Close();
+                                this.Hide();
                                 frmInicioAdministrador.Show();
                                 break;
                             case EId_Rol.Asistente:
@@ -74,7 +74,7 @@ namespace TallerMecanico
             catch (Exception ex)
             {
 
-                MessageBox.Show("Erro en el proceso: "+ex.InnerException.Message);
+                MessageBox.Show("Erro en el proceso: "+ex.Message);
             }
        
 

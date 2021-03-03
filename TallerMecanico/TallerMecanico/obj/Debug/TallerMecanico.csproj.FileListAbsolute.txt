@@ -62,3 +62,6 @@ C:\Proyectos\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.pdb
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmInicioAdministrador.resources
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmInicioAsistente.resources
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.FrmInicioMecanico.resources
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\obj\Debug\TallerMecanico.Administrador.FrmGestionarUsuarios.resources
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\DevComponents.DotNetBar2.dll
+D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico\bin\Debug\DevComponents.DotNetBar2.xml

@@ -11,10 +11,10 @@ namespace TallerMecanico.Negocio
     public class BLTUsuario
     {
 
-        public TUsuario SeleccionarUsuario(string Usuario, string Contraseña)
+        public TUsuario SeleccionarUsuarioLogin(string Usuario, string Contrasena)
         {
             DAOTUsuario daTUsuario = new DAOTUsuario();
-            return daTUsuario.SeleccionarUsuario(Usuario, Contraseña);
+            return daTUsuario.SeleccionarUsuarioLogin(Usuario, Contrasena);
         }
     }
 }

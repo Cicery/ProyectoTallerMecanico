@@ -13,7 +13,7 @@ namespace TallerMecanico.Datos
     public class DAOTUsuario
     {
 
-        public TUsuario SeleccionarUsuario(string Usuario, string Contraseña) 
+        public TUsuario SeleccionarUsuarioLogin(string Usuario, string Contrasena) 
         {
 
             TUsuario usuario = null;
@@ -22,10 +22,10 @@ namespace TallerMecanico.Datos
                 using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
                 {
                     con.Open();
-                    SqlCommand cmd = new SqlCommand("TraerCategoriaPorId", con);
+                    SqlCommand cmd = new SqlCommand("sp_SeleccionarUsuario_X_UsuarioContrasena", con);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Usuario", Usuario);
-                    cmd.Parameters.AddWithValue("@Contraseña", Contraseña);
+                    cmd.Parameters.AddWithValue("@Contrasena", Contrasena);
                     SqlDataReader dr = cmd.ExecuteReader();
                     if (dr != null && dr.HasRows)
                     {
@@ -54,11 +54,39 @@ namespace TallerMecanico.Datos
             return usuario;
         }
 
-
-        public List<TUsuario> listarUasuatios()
+        public TUsuario Merge_Usuario(TUsuario usuario)
         {
-            return null;
+            try
+            {
+                using (SqlConnection con = new SqlConnection(DAOConexion.CadenaConexion))
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("Merge_Usuario", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@IdUsuario", usuario.IdUsuario);
+                    cmd.Parameters.AddWithValue("@Usuario", usuario.Usuario);
+                    cmd.Parameters.AddWithValue("@Contrasena", usuario.Contrasena);
+                    cmd.Parameters.AddWithValue("@Id_Rol", usuario.Id_Rol);
+                    cmd.Parameters.AddWithValue("@Id_Persona", usuario.Id_Persona);
+                    cmd.Parameters.AddWithValue("@Id_Usuario_Creacion", usuario.Id_Usuario_Creacion);
+                    cmd.Parameters.AddWithValue("@Id_Usuario_Modificacion", usuario.Id_Usuario_Modificacion);
+                    cmd.Parameters.AddWithValue("@Activo", usuario.Activo);
+                    usuario.IdUsuario = (int)cmd.ExecuteScalar();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Log.Information(ex, "Error por ty catch DAOTUsuario - Merge_Usuario");
+                Log.CloseAndFlush();
+                throw;
+            }         
+            return usuario;
         }
+
+
+
+
 
     }
 }
