@@ -66,6 +66,7 @@ namespace TallerMecanico
             this.gbDatos.TabIndex = 0;
             this.gbDatos.TabStop = false;
             this.gbDatos.Text = "gbDatos";
+            this.gbDatos.Enter += new System.EventHandler(this.gbDatos_Enter);
             // 
             // txtObservacion
             // 
@@ -215,7 +216,7 @@ namespace TallerMecanico
             this.Column4.HeaderText = "Observacion";
             this.Column4.Name = "Column4";
             // 
-            // FrmCategoriacs
+            // FrmCategorias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,7 +224,7 @@ namespace TallerMecanico
             this.Controls.Add(this.dgvDatos);
             this.Controls.Add(this.gbControl);
             this.Controls.Add(this.gbDatos);
-            this.Name = "FrmCategoriacs";
+            this.Name = "FrmCategorias";
             this.Text = "FrmCategoriacs";
             this.gbDatos.ResumeLayout(false);
             this.gbDatos.PerformLayout();

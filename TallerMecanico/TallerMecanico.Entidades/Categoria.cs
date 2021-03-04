@@ -14,6 +14,8 @@ namespace TallerMecanico.Entidades
         string _codigo;
         string _nombre;
         string _observacion;
+        bool _activo;
+
          
 
 
@@ -42,14 +44,30 @@ namespace TallerMecanico.Entidades
             get { return _observacion; }
             set { _observacion = value; }
         }
-// Se crean los constructores de la clase
+
+        public bool Activo
+        {
+            get { return _activo; }
+            set { _activo = value; }
+
+        }
+        // Se crean los constructores de la clase
+
+        public Categoria(int Id, string Codigo, string Nombre, string Observacion, bool Activo) 
+        {
+        
+        }
+
+
         public Categoria(int Id, string Codigo, string Nombre, string Observacion)
         {
             this._id = Id;
             this._codigo = Codigo;
             this._nombre = Nombre;
             this._observacion = Observacion;
+            this._activo = Activo;
         }
+
 
         public Categoria(int Id, string Codigo, string Nombre) : this(Id, Codigo, Nombre, "")
         {

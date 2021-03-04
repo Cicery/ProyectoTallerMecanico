@@ -30,3 +30,16 @@ D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debu
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\Serilog.xml
 C:\Proyectos\TallerMecanico\TallerMecanico.Negocio\bin\Debug\Serilog.dll
 C:\Proyectos\TallerMecanico\TallerMecanico.Negocio\bin\Debug\Serilog.xml
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Negocio.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Negocio.pdb
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Datos.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Entidades.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\Serilog.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Datos.pdb
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\TallerMecanico.Entidades.pdb
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\bin\Debug\Serilog.xml
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.csprojAssemblyReference.cache
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.csproj.CopyComplete
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Negocio\obj\Debug\TallerMecanico.Negocio.pdb

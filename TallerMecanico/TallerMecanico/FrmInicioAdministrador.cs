@@ -77,6 +77,26 @@ namespace TallerMecanico
                 frm.Select();
             }
         }
+
+        private void FrmInicioAdministrador_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sideNavItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sideNav1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sideNavItem2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -202,5 +202,10 @@ namespace TallerMecanico
         {
             Close();
         }
+
+        private void gbDatos_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

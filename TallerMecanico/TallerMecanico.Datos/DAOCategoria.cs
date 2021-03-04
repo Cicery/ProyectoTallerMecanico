@@ -37,8 +37,7 @@ namespace TallerMecanico.Datos
                         {
                             Categoria c = new Categoria((int)dr["Id"],
                                 (string)dr["Codigo"], (string)dr["Nombre"],
-                                (string)dr["Observacion"]);
-                            lista.Add(c);
+                                (string)dr["Observacion"], (bool)dr["Activo"]);
                         }
                     }
                 }
@@ -70,7 +69,7 @@ namespace TallerMecanico.Datos
                     dr.Read();
                     Categoria = new Categoria((int)dr["Id"],
                         (string)dr["Codigo"], (string)dr["Nombre"],
-                        (string)dr["Observacion"]);
+                        (string)dr["Observacion"],(bool)dr["Activo"]);
                 }
             }
             return Categoria;

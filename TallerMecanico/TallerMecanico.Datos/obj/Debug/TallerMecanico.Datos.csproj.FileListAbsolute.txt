@@ -24,3 +24,16 @@ D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\
 D:\MyRepos\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\Serilog.xml
 C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\Serilog.dll
 C:\Proyectos\TallerMecanico\TallerMecanico.Datos\bin\Debug\Serilog.xml
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Datos.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Datos.pdb
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\Serilog.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Entidades.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\TallerMecanico.Entidades.pdb
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\Serilog.xml
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.csprojAssemblyReference.cache
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.csproj.CopyComplete
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.dll
+C:\Users\Hogar\source\repos\Cicery\ProyectoTallerMecanico\TallerMecanico\TallerMecanico.Datos\obj\Debug\TallerMecanico.Datos.pdb

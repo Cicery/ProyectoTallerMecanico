@@ -29,75 +29,83 @@ namespace TallerMecanico
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnIRAsistente = new System.Windows.Forms.Button();
-            this.cbAsistente = new System.Windows.Forms.ComboBox();
-            this.btnCerrarAsis = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.sideNav1 = new DevComponents.DotNetBar.Controls.SideNav();
+            this.sideNavItem1 = new DevComponents.DotNetBar.Controls.SideNavItem();
+            this.separator1 = new DevComponents.DotNetBar.Separator();
+            this.sideNavItem2 = new DevComponents.DotNetBar.Controls.SideNavItem();
+            this.sideNavPanel1 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.sideNav1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnIRAsistente
+            // sideNav1
             // 
-            this.btnIRAsistente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnIRAsistente.Location = new System.Drawing.Point(372, 193);
-            this.btnIRAsistente.Name = "btnIRAsistente";
-            this.btnIRAsistente.Size = new System.Drawing.Size(75, 23);
-            this.btnIRAsistente.TabIndex = 12;
-            this.btnIRAsistente.Text = "IR";
-            this.btnIRAsistente.UseVisualStyleBackColor = true;
+            this.sideNav1.Controls.Add(this.sideNavPanel1);
+            this.sideNav1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.sideNav1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.sideNavItem1,
+            this.separator1,
+            this.sideNavItem2});
+            this.sideNav1.Location = new System.Drawing.Point(0, 0);
+            this.sideNav1.Name = "sideNav1";
+            this.sideNav1.Padding = new System.Windows.Forms.Padding(1);
+            this.sideNav1.Size = new System.Drawing.Size(400, 450);
+            this.sideNav1.TabIndex = 1;
+            this.sideNav1.Text = "sideNav1";
             // 
-            // cbAsistente
+            // sideNavItem1
             // 
-            this.cbAsistente.FormattingEnabled = true;
-            this.cbAsistente.Items.AddRange(new object[] {
-            "Modulo Inventario",
-            "Modulo Mantenimiento",
-            "Generar Reportes"});
-            this.cbAsistente.Location = new System.Drawing.Point(226, 134);
-            this.cbAsistente.Name = "cbAsistente";
-            this.cbAsistente.Size = new System.Drawing.Size(366, 21);
-            this.cbAsistente.TabIndex = 11;
+            this.sideNavItem1.IsSystemMenu = true;
+            this.sideNavItem1.Name = "sideNavItem1";
+            this.sideNavItem1.Symbol = "";
+            this.sideNavItem1.Text = "Menu";
             // 
-            // btnCerrarAsis
+            // separator1
             // 
-            this.btnCerrarAsis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrarAsis.Location = new System.Drawing.Point(685, 12);
-            this.btnCerrarAsis.Name = "btnCerrarAsis";
-            this.btnCerrarAsis.Size = new System.Drawing.Size(103, 23);
-            this.btnCerrarAsis.TabIndex = 10;
-            this.btnCerrarAsis.Text = "Cerrar Sesion";
-            this.btnCerrarAsis.UseVisualStyleBackColor = true;
+            this.separator1.FixedSize = new System.Drawing.Size(3, 1);
+            this.separator1.Name = "separator1";
+            this.separator1.Padding.Bottom = 2;
+            this.separator1.Padding.Left = 6;
+            this.separator1.Padding.Right = 6;
+            this.separator1.Padding.Top = 2;
+            this.separator1.SeparatorOrientation = DevComponents.DotNetBar.eDesignMarkerOrientation.Vertical;
             // 
-            // label1
+            // sideNavItem2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Candara", 22F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(266, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(289, 37);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "USUARIO ASISTENTE";
+            this.sideNavItem2.Checked = true;
+            this.sideNavItem2.Name = "sideNavItem2";
+            this.sideNavItem2.Panel = this.sideNavPanel1;
+            this.sideNavItem2.Symbol = "";
+            this.sideNavItem2.Text = "Home";
+            // 
+            // sideNavPanel1
+            // 
+            this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel1.Location = new System.Drawing.Point(77, 37);
+            this.sideNavPanel1.Name = "sideNavPanel1";
+            this.sideNavPanel1.Size = new System.Drawing.Size(318, 412);
+            this.sideNavPanel1.TabIndex = 2;
             // 
             // FrmInicioAsistente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnIRAsistente);
-            this.Controls.Add(this.cbAsistente);
-            this.Controls.Add(this.btnCerrarAsis);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.sideNav1);
+            this.IsMdiContainer = true;
             this.Name = "FrmInicioAsistente";
             this.Text = "FrmInicioAsistente";
+            this.sideNav1.ResumeLayout(false);
+            this.sideNav1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnIRAsistente;
-        private System.Windows.Forms.ComboBox cbAsistente;
-        private System.Windows.Forms.Button btnCerrarAsis;
-        private System.Windows.Forms.Label label1;
+        private DevComponents.DotNetBar.Controls.SideNav sideNav1;
+        private DevComponents.DotNetBar.Controls.SideNavPanel sideNavPanel1;
+        private DevComponents.DotNetBar.Controls.SideNavItem sideNavItem1;
+        private DevComponents.DotNetBar.Separator separator1;
+        private DevComponents.DotNetBar.Controls.SideNavItem sideNavItem2;
     }
 }
